@@ -1,6 +1,4 @@
 var gulp = require('gulp'),
-    renameCss = require('gulp-rename'),
-    uncss = require('gulp-uncss'),
     notify = require('gulp-notify'),
     minifyCss = require('gulp-minify-css'),
     autoprefixer = require('gulp-autoprefixer'),
@@ -11,14 +9,11 @@ gulp.task('default',['stylesCompiler', 'watch', 'browserSync']);
 
 gulp.task('stylesCompiler', function () {
 
-    gulp.src('styles/styleConstructor.css')
+    gulp.src('styles/style-constructor.css')
         .pipe(concatCss("styles.css"))
         .pipe(autoprefixer({ browsers: ["> 0%"] }))
-        //.pipe(uncss({
-        //    html: 'dist/*.html'
-        //}))
         .pipe(minifyCss())
-        .pipe(gulp.dest('dist/styles'))
+        .pipe(gulp.dest('dist/'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(notify('styles.css done!!!'));
 
@@ -44,5 +39,13 @@ gulp.task('watch', function () {
     gulp.watch(['styles/*.css', 'dist/*.html'], ['stylesCompiler', 'html']);
 });
 
-// npm install --save-dev gulp-rename gulp-notify gulp-minify-css gulp-autoprefixer browser-sync gulp-concat-css gulp-uncss
 
+//For global use with slush
+//    Install gulp-install as a dependency:
+
+//    npm install --save gulp-install
+//For local use with gulp
+//    Install gulp-install as a development dependency:
+
+//    npm install --save-dev gulp-install
+// npm install --save-dev gulp-rename gulp-notify gulp-minify-css gulp-autoprefixer browser-sync gulp-concat-css gulp-uncss
