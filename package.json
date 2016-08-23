@@ -1,0 +1,33 @@
+{
+  "name": "pcraft",
+  "version": "0.0.0",
+  "description": "PCraft web site",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uncss": "^1.0.6",
+    "gulp-rename": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rus0d/PCraft.git"
+  },
+  "keywords": [
+    "pcraft"
+  ],
+  "author": "Rus0d",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rus0d/PCraft/issues"
+  },
+  "homepage": "https://github.com/Rus0d/PCraft#readme"
+}
