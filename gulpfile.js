@@ -41,4 +41,4 @@ gulp.task('watch', function () {
 
 // npm install --global gulp-cli
 // npm install --save-dev gulp
-// npm install --save-dev gulp-rename gulp-notify gulp-minify-css gulp-autoprefixer browser-sync gulp-concat-css gulp-uncss
+// npm install --save-dev gulp-notify gulp-minify-css gulp-autoprefixer browser-sync gulp-concat-css
