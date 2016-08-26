@@ -155,7 +155,7 @@ header .down-arrow {
 
 .advantages {
     position: relative;
-    background-color: #996633;
+    background-color: #875643;
     padding: 45px 0;
 }
 
@@ -167,7 +167,7 @@ header .down-arrow {
 .advantages h3 {
     display: block;
     position: absolute;
-    background-color: #996633;
+    background-color: #875643;
     left: 50%;
     transform: translate(-50%);
     top: -15px;
@@ -224,6 +224,33 @@ header .down-arrow {
 
 
 /* ADVANTAGES ENDS */
+
+/* SHOWROOM */
+
+.showroom {
+    position: relative;
+    background-color: #fff5e4;
+    padding: 45px 0 80px 0;
+}
+
+.showroom .wrapper {
+    border-top: 2px solid #875643;
+    padding: 45px 5% 0 5%;
+}
+
+.showroom h3 {
+    display: block;
+    position: absolute;
+    background-color: #fff5e4;
+    left: 50%;
+    transform: translate(-50%);
+    top: -15px;
+    color: #4b2e23;
+}
+
+
+
+/* SHOWROOM ENDS */
 
 
 
