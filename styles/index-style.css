@@ -248,11 +248,89 @@ header .down-arrow {
     color: #4b2e23;
 }
 
+.showroom .swiper-container {
 
+}
+
+.showroom .swiper-container .swiper-slide {
+}
+
+.showroom .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    width: 44px;
+    height: 82px;
+    margin-top: -21px;
+    z-index: 10;
+    cursor: pointer;
+    opacity: 1;
+    background-image: url("pic/left-arrow.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out;
+}
+
+.showroom .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    width: 44px;
+    height: 82px;
+    margin-top: -21px;
+    z-index: 10;
+    cursor: pointer;
+    opacity: 1;
+    background-image: url("pic/right-arrow.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out;
+}
+
+.showroom .swiper-button-disabled {
+    opacity: 0.3;
+    cursor: auto;
+}
+
+.showroom .swiper-slide img {
+    display: block;
+    border-radius: 11px;
+    width: 100%;
+    max-width: 255px;
+    height: auto;
+    margin: 0 auto;
+}
 
 /* SHOWROOM ENDS */
 
+/* ABOUT US */
 
+.aboutus {
+    position: relative;
+    padding: 45px 0 110px 0;
+    background-image: url("images/aboutus-background.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.aboutus .wrapper {
+    border-top: 2px solid #ffffff;
+    padding: 80px 5% 0 5%;
+}
+
+.aboutus h3 {
+    display: block;
+    position: absolute;
+    background-color: inherit;
+    left: 50%;
+    transform: translate(-50%);
+    top: -15px;
+    color: #ffffff;
+}
+
+/* ABOUT US ENDS */
 
 footer {
     height: 80px;

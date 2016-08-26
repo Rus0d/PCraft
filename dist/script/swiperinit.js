@@ -1,26 +1,25 @@
-$(document).ready(function(){	
+$(document).ready(function(){
 
 	var showroomSlider = new Swiper('.showroom .swiper-container', {
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
+        nextButton: '.showroom .swiper-button-next',
+        prevButton: '.showroom .swiper-button-prev',
         slidesPerView: 3,
         slidesPerColumn: 2,
-        paginationClickable: true,
         spaceBetween: 80,
-        loop: true,
-        centeredSlides: true,
+        grabCursor: true,
         autoplay: 15000,
         autoplayDisableOnInteraction: false,
         breakpoints: {
             // when window width is <= 500px
             500: {
                 slidesPerView: 1,
-                centeredSlides: true
+                slidesPerColumn: 1,
+                spaceBetween: 0
             },
             // when window width is <= 768px
             768: {
                 slidesPerView: 2,
-                centeredSlides: false
+                spaceBetween: 20
             }
         }
     });
