@@ -65,7 +65,7 @@ h6 {
 
 p {
     font: 300 25px/1.2 'Merriweather', serif;
-    color: #000000;
+    color: #ffffff;
     font-variant: small-caps;
     text-align: center;
 }
@@ -316,17 +316,43 @@ header .down-arrow {
 }
 
 .aboutus .wrapper {
-    border-top: 2px solid #ffffff;
-    padding: 80px 5% 0 5%;
+    padding: 0 5%;
+    position: relative;
 }
 
-.aboutus h3 {
-    display: block;
-    position: absolute;
-    background-color: inherit;
-    left: 50%;
-    transform: translate(-50%);
-    top: -15px;
+.aboutus .h3-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -15px;
+    margin-bottom: 65px;
+}
+
+.aboutus .h3-wrapper .left-line {
+    margin: auto;
+    border-top: 2px solid #ffffff;
+    height: 0;
+    flex-basis: 100%;
+}
+
+.aboutus .h3-wrapper .right-line {
+    margin: auto;
+    border-top: 2px solid #ffffff;
+    height: 0;
+    flex-basis: 100%;
+}
+
+.aboutus .h3-wrapper h3 {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.aboutus p {
+    text-align: center;
     color: #ffffff;
 }
 
