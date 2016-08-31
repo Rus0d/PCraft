@@ -358,6 +358,66 @@ header .down-arrow {
 
 /* ABOUT US ENDS */
 
+/* CONTACTS*/
+
+
+.contacts {
+    position: relative;
+    background-color: #875643;
+    padding: 45px 0 50px 0;
+}
+
+.contacts .wrapper {
+    border-top: 2px solid #ffffff;
+    padding: 25px 5% 0 5%;
+}
+
+.contacts h3 {
+    display: block;
+    position: absolute;
+    background-color: #875643;
+    left: 50%;
+    transform: translate(-50%);
+    top: -15px;
+}
+
+.contacts .contacts-holder {
+    font-size: 0;
+}
+
+.contacts .contacts-holder h6 {
+    letter-spacing: 5px;
+    line-height: 1;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contacts .contacts-holder p {
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contacts .contacts-text {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-right: 20%;
+}
+
+.contacts .contacts-form {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+
+/* CONTACTS ENDS */
+
 footer {
     height: 80px;
     margin-top: -80px;
