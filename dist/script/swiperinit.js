@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	var showroomSlider = new Swiper('.showroom .swiper-container', {
+    var showroomSlider = new Swiper('.showroom .swiper-container', {
         nextButton: '.showroom .swiper-button-next',
         prevButton: '.showroom .swiper-button-prev',
         slidesPerView: 3,
@@ -23,5 +23,4 @@ $(document).ready(function(){
             }
         }
     });
-
 });
