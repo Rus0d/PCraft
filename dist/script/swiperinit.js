@@ -1,6 +1,8 @@
+var showroomSlider = {};
+
 $(document).ready(function(){
 
-    var showroomSlider = new Swiper('.showroom .swiper-container', {
+    showroomSlider = new Swiper('.showroom .swiper-container', {
         nextButton: '.showroom .swiper-button-next',
         prevButton: '.showroom .swiper-button-prev',
         slidesPerView: 3,
@@ -18,9 +20,12 @@ $(document).ready(function(){
             },
             // when window width is <= 768px
             768: {
+                slidesPerColumn: 1,
                 slidesPerView: 2,
                 spaceBetween: 20
             }
         }
     });
+
 });
+

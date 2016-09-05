@@ -236,15 +236,24 @@ header .down-arrow {
     cursor: pointer;
 }
 
+header .down-arrow:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+
+@media (max-width: 840px) {
+
+    header li {
+        color: #ffffff;
+    }
+
+}
+
 @media (max-width: 768px) {
 
     header h1 {
         position: static;
         margin-bottom: 15px;
-    }
-
-    header li {
-        color: #ffffff;
     }
 
 }
